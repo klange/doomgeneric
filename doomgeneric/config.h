@@ -97,4 +97,8 @@
 #undef ORIGCODE
 
 /* Define to the directory where all game files are located */
+#ifdef TOARU
+#define FILES_DIR "/usr/share/games/doom/"
+#else
 #define FILES_DIR "."
+#endif
