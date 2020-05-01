@@ -14,7 +14,7 @@ endif
 
 CC=i686-pc-toaru-gcc  # gcc or g++
 CFLAGS+=-g -O3 -Wall -DNORMALUNIX -DTOARU -DSNDSERV # -DUSEASM
-LIBS+=-ltoaru_decorations -ltoaru_menu -ltoaru_yutani -ltoaru_icon_cache -ltoaru_sdf -ltoaru_hashmap -ltoaru_graphics -ltoaru_pex -ltoaru_list -ltoaru_kbd -lc
+LIBS+=-ltoaru_decorations -ltoaru_menu -ltoaru_yutani -ltoaru_graphics -lc
 
 # subdirectory for objects
 OBJDIR=build
